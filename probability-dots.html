@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`probability-dots`
+Some fancy dots to show probability
+
+@demo demo/index.html 
+-->
+
+<dom-module id="probability-dots">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'probability-dots',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'probability-dots',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
